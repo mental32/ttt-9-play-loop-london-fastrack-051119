@@ -36,4 +36,7 @@ def turn(board)
 end
 
 def play
+  for _ in 1..9 do
+    turn(board)
+  end
 end
